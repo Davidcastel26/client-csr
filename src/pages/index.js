@@ -4,6 +4,7 @@ export { Checkout } from './Checkout';
 export { Error } from './Error';
 export { HomeLayout } from './HomeLayout';
 export { Landing } from './Landing';
+export { Login } from './Login';
 export { Orders } from './Orders';
 export { Products } from './Products';
 export { SingleProduct } from './SingleProduct';
