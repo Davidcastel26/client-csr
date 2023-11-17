@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom"
-import { BsCart3, BsMoonFill, BsSunFill } from 'react-icons/bs'
+import { BsMoonFill, BsSunFill } from 'react-icons/bs'
+import { FaBed } from "react-icons/fa6";
+// import { BiSolidBed } from "react-icons/bi";
+// import { MdLocalHotel } from "react-icons/md";
 import { FaBarsStaggered } from 'react-icons/fa6'
 
 export const Navbar = () => {
@@ -28,7 +31,21 @@ export const Navbar = () => {
                 nav links
             </ul>
         </div>
-        <div className="navbar-end"></div>
+        <div className="navbar-end">
+            {/* THEME SETUP  */}
+            {/* RESERVATION LINK  */}
+            <NavLink to='/bookings' className='btn btn-ghost btn-circle btn-md ml-4'>
+                <div className="indicator">
+                {/* <BiSolidBed className="h-6 w-6"/> */}
+                <FaBed className="h-6 w-6" />
+                {/* <MdLocalHotel className="h-6 w-6" /> */}
+                    <span className="badge badge-sm badge-primary indicator-item">
+                        1
+                    </span>
+                    
+                </div>
+            </NavLink>
+        </div>
     </div>
   </nav>)
 }

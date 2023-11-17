@@ -1,5 +1,5 @@
 export { About } from './About';
-export { Cart } from './Cart';
+export { Bookings } from './Cart';
 export { Checkout } from './Checkout';
 export { Error } from './Error';
 export { HomeLayout } from './HomeLayout';
