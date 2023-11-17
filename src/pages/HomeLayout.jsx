@@ -6,7 +6,9 @@ export const HomeLayout = () => {
       <span className="text-4xl text-primary">
         Casas Sobre Ruedas
       </span>
-      <Outlet />
     </nav>
+    <section className="align-element py-20">
+      <Outlet />
+    </section>
   </>)
 }
