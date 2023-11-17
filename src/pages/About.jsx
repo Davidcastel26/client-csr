@@ -15,7 +15,10 @@ export const About = () => {
         </div>
       </div>
       <p className="mt-6 text-lg leading-8 max-w-2xl mx-auto">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore enim harum ad amet, quia qui rem accusantium, libero eos voluptatum incidunt voluptas. Tempore et laboriosam consectetur ratione ducimus nostrum sit.
+      En nuestro hotel, cada habitación es una renovada y confortable sección de autobús, diseñada para proporcionar una experiencia de hospedaje única. Nuestros autobuses se encuentran a solo 100 metros de la orilla del mar garantiza a nuestros huéspedes la proximidad a la play
+      </p>
+      <p className="mt-6 text-lg leading-8 max-w-2xl mx-auto">
+      Además de ofrecer comodidades excepcionales, estamos inmersos en un sector que no solo sirve como lugar de residencia, sino también como un animado centro turístico. Perfecto para aquellos que buscan disfrutar de la playa y explorar las maravillas del lugar.
       </p>
     </>
   )
