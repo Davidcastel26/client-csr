@@ -1,6 +1,9 @@
+import { Hero } from "../components/Hero"
 
 export const Landing = () => {
   return (
-    <h1 className='text-4xl'>Landing</h1>
+    <>
+      <Hero />
+    </>
   )
 }
