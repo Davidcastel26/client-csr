@@ -15,7 +15,7 @@ export const About = () => {
         </div>
       </div>
       <p className="mt-6 text-lg leading-8 max-w-2xl mx-auto">
-        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore enim harum ad amet, quia qui rem accusantium, libero eos voluptatum incidunt voluptas. Tempore et laboriosam consectetur ratione ducimus nostrum sit.
       </p>
     </>
   )
