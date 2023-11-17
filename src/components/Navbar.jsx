@@ -5,8 +5,16 @@ import { FaBed } from "react-icons/fa6";
 // import { MdLocalHotel } from "react-icons/md";
 import { FaBarsStaggered } from 'react-icons/fa6'
 import { NavLinks } from "./NavLinks";
+import { useState } from "react";
 
 export const Navbar = () => {
+
+    const [theme, setTheme] = useState( false );
+
+    const handleTheme = () => {
+        setTheme(!theme)
+    } 
+
   return (<nav className="bg-base-200">
     <div className="navbar align-element">
         <div className="navbar-start">
@@ -34,6 +42,13 @@ export const Navbar = () => {
         </div>
         <div className="navbar-end">
             {/* THEME SETUP  */}
+            <label className="swap swap-rotate">
+                <input type="checkbox" className="theme-controller" onChange={handleTheme}/>
+                {/* SUN ICON */}
+                <BsSunFill className="swap-on h-4 w-4"/>
+                {/* MOON ICON  */}
+                <BsMoonFill className="swap-off h-4 w-4"/>
+            </label>
             {/* RESERVATION LINK  */}
             <NavLink to='/bookings' className='btn btn-ghost btn-circle btn-md ml-4'>
                 <div className="indicator">
