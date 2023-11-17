@@ -12,7 +12,13 @@ export const Hero = () => {
     <div
       className='grid lg:grid-cols-2 gap-24 items-center'
     >
-      <div className=""> Info </div>
+      <div> 
+        <h1 
+          className='max-w-2xl text-4xl font-bold tracking-tight sm:text-6xl'
+        >
+          Estamos creando una experiencia de hospedaje única
+        </h1>
+      </div>
       <div 
         className="hidden h-[28rem] lg:carousel carousel-center p-4 space-x-4 bg-neutral rounded-box"
       > 
