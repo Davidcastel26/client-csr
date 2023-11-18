@@ -1,6 +1,9 @@
+import { OnProduction } from "../components"
 
 export const Bookings = () => {
   return (
-    <h1 className='text-4xl'>Cart</h1>
+    <>
+      <OnProduction />
+    </>
   )
 }
