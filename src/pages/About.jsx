@@ -8,7 +8,7 @@ export const About = () => {
         </h1>
         <div className="stats bg-primary shadow">
           <div className="stat">
-            <div className="stat-title text-primary-content text-4xl font-bold traking-widest">
+            <div className="stat-title text-primary-content text-4xl font-bold traking-widest sm:text-2xl">
               Casa Sobre Ruedas
             </div>
           </div>
