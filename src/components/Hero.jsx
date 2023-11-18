@@ -18,6 +18,14 @@ export const Hero = () => {
         >
           Estamos creando una experiencia de hospedaje única
         </h1>
+        <p className="mt-8 max-w-xl text-lg leading-8">
+        Nuestros autobuses se encuentran a solo 100 metros de la orilla del mar!!
+        </p>
+        <div className="mt-10">
+          <Link to='/products' className='btn btn-primary'>
+            Nuestros Campers
+          </Link>
+        </div>
       </div>
       <div 
         className="hidden h-[28rem] lg:carousel carousel-center p-4 space-x-4 bg-neutral rounded-box"
