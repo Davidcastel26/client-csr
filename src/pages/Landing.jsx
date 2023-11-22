@@ -5,8 +5,9 @@ const url = '/products'
 
 export const loader = async() => {
   const response = await customFetch(url)
-  console.log(response);
-  return response;
+  console.log(response.data);
+  const products = response.data;
+  return {products};
 }
 
 export const Landing = () => {
