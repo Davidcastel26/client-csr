@@ -6,3 +6,6 @@ export { NavLinks } from './NavLinks'
 export { Hero } from './Hero';
 export { OnProduction } from './OnProduction';
 export { ErrorElement } from './ErrorElement';
+export { FeaturedProducts } from './FeaturedProducts';
+export { SectionTitle } from './SectionTitle';
+export { ProductsGrid } from './ProductsGrid';
