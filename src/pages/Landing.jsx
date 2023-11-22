@@ -1,6 +1,7 @@
 import { Hero } from '../components/Hero';
 import { customFetch } from '../utils'
 
+// we need to set a query /products?featured=true 
 const url = '/products'
 
 export const loader = async() => {
