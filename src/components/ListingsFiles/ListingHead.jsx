@@ -1,3 +1,4 @@
+import { Container, Heading } from "../ui"
 
 export const ListingHead = ({
     title,
@@ -8,8 +9,15 @@ export const ListingHead = ({
 }) => {
 
   return (
-    <div>
-
+    <Container>
+      <div className="max-w-screen-lg mx-auto">
+      <div className="flex flex-col gap-6">
+        <Heading 
+          title={title} 
+          subtitle={`Listing number L${roomNumber}`}
+         />
+      </div>
     </div>
+    </Container>
   )
 }
