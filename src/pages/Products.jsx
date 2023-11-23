@@ -1,9 +1,11 @@
-import { OnProduction } from "../components"
+import { FeaturedProducts, OnProduction } from "../components"
 
 export const Products = () => {
   return (
     <>
-    <OnProduction />
+    <h1>s</h1>
+    <FeaturedProducts />
+    {/* <OnProduction /> */}
     </>
   )
 }
