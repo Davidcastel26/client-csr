@@ -16,7 +16,7 @@ export const formatPrice = ( price ) => {
     const quetzalesAmount = new Intl.NumberFormat('es-GT', {
         style: 'currency',
         currency: 'GTQ'
-    }).format((price/100).toFixed(2));
+    }).format((price/1).toFixed(2));
 
     return quetzalesAmount;
 }

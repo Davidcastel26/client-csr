@@ -68,17 +68,16 @@ export const Navbar = () => {
                 <BsMoonFill className="swap-on h-4 w-4"/>
             </label>
             {/* RESERVATION LINK  */}
-            <NavLink to='/bookings' className='btn btn-ghost btn-circle btn-md ml-4'>
-                <div className="indicator">
+            {/* <NavLink to='/bookings' className='btn btn-ghost btn-circle btn-md ml-4'> */}
+                {/* <div className="indicator"> */}
                 {/* <BiSolidBed className="h-6 w-6"/> */}
-                <FaBed className="h-6 w-6" />
+                {/* <FaBed className="h-6 w-6" /> */}
                 {/* <MdLocalHotel className="h-6 w-6" /> */}
-                    <span className="badge badge-sm badge-primary indicator-item">
-                        1
-                    </span>
-                    
-                </div>
-            </NavLink>
+                    {/* <span className="badge badge-sm badge-primary indicator-item"> */}
+                        {/* 1 */}
+                    {/* </span> */}
+                {/* </div> */}
+            {/* </NavLink> */}
         </div>
     </div>
   </nav>)
