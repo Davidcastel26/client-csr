@@ -1,6 +1,12 @@
 import { formatPrice } from "../../utils"
 import { LisitngCategorySinglePage } from "./LisitngCategorySinglePage"
 
+const initialDateRange = {
+    startDate: new Date(),
+    endDate: new Date(),
+    key: 'selection'
+}
+
 export const ListingInfo = ({ 
     bath, 
     beds, 
