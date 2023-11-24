@@ -2,22 +2,30 @@ import { Container, Heading } from "../ui"
 
 export const ListingHead = ({
     title,
+    id,
+    img,
     imageSrc,
     roomNumber,
     details,
-    id
 }) => {
 
   return (
-    <Container>
-      <div className="max-w-screen-lg mx-auto">
-      <div className="flex flex-col gap-6">
+      <>
         <Heading 
           title={title} 
           subtitle={`Listing number L${roomNumber}`}
-         />
-      </div>
-    </div>
-    </Container>
+        />
+        <div className="w-full h-[60vh] overflow-hidden rounded-xl relative">
+          <img 
+            src={img} 
+            alt={title} 
+            fill
+            className="object-cover w-full"
+          />
+          <div className="absolute top-5 right-5">
+            {/* <HeartButton /> */}like?
+          </div>
+        </div>
+    </>
   )
 }

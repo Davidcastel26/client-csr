@@ -1,0 +1,1 @@
+export { useFavorite as default } from './useFavorite';
