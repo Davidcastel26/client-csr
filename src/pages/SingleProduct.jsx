@@ -16,7 +16,7 @@ export const SingleProduct = () => {
 
   const { product } = useLoaderData();
   const {nameProduct, numProduct, imgs, productDetail, imgMainProduct, desc, idProduct} = product;
-  console.log(product)
+  console.log(productDetail)
 
   return (
     <Container>
@@ -31,9 +31,25 @@ export const SingleProduct = () => {
           id={ idProduct }
         />
         <div className="grid grid-cols-1 md:grid-cols-7 md:gap-10 mt-6">
-          <ListingInfo
-            productDetail={productDetail}
-          />
+          { productDetail.map((lastInfo)=> {
+              
+              const { bath, beds, rooms, createdAt, fullDesc, isActive, price, idProductDetail, numGuest} = lastInfo;
+
+              return (
+              <ListingInfo
+                key={lastInfo.idProductDetail}
+                bath={bath}
+                beds={beds} 
+                rooms={rooms} 
+                createdAt={createdAt} 
+                fullDesc={fullDesc} 
+                isActive={isActive} 
+                price={price} 
+                idProductDetail={idProductDetail} 
+                numGuest={numGuest}
+              />)
+            })
+          }
         </div>
       </div>
     </div>

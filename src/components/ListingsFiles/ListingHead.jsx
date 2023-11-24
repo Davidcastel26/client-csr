@@ -19,11 +19,11 @@ export const ListingHead = ({
           <img 
             src={img} 
             alt={title} 
-            fill
+            // fill
             className="object-cover w-full"
           />
           <div className="absolute top-5 right-5">
-            {/* <HeartButton /> */}like?
+            {/* <HeartButton /> */} ❤️
           </div>
         </div>
     </>
