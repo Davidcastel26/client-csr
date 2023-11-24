@@ -45,7 +45,6 @@ export const SingleProduct = () => {
                 fullDesc={fullDesc} 
                 isActive={isActive} 
                 price={price} 
-                idProductDetail={idProductDetail} 
                 numGuest={numGuest}
               />)
             })
